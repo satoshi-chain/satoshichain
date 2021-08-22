@@ -52,11 +52,15 @@ Create a new network like BSC, but call it the Satoshi Chain. And instead of BNB
 
 **Consensus**
 
-Block production time should target below 5 seconds
-The finality of transaction should be less than 1 minute
-There is no inflation of native token: SCBTC, the block reward is collected from transaction fees, and it will be paid in SCBTC
-It is compatible with the Ethereum
-It allows modern proof-of-stake blockchain network governance, using NKMT and BTC
+- Block production time should target below 5 seconds
+
+- The finality of transaction should be less than 1 minute
+
+- There is no inflation of native token: SCBTC, the block reward is collected from transaction fees, and it will be paid in SCBTC
+
+- It is compatible with the Ethereum
+
+- It allows modern proof-of-stake blockchain network governance, using NKMT and BTC
 
 **1st Stage PoA**
 
@@ -84,27 +88,17 @@ Once the emission for NKMT is complete, the network can transition into a PoS co
 
 Satoshi Chain Bitcoin (SCBTC) is the native token on the Satoshi Chain network. Using the BTC-SCBTC bridge, the network supports BTC to migrate into the Satoshi Chain network. All transaction fees and smart contract interactions are paid with SCBTC and rewarded to validators. SCBTC is denominated by 18 decimals, unlike Bitcoin, which has 8 decimals. This is due to creating an Ethereum compatible native token. The difference in decimals is forced to be reconciled when users use the BTC-SCBTC bridge to burn SCBTC for BTC transfers into the Bitcoin network. SCBTC will follow denomination names according to Ethereum to increase Ethereum compatibility, which means the base unit for SCBTC is not Satoshi, but Wei.  
 
-1000000000000000000	Wei (10^-18)
-
-1000000000000000	KWei
-
-1000000000000	MWei
-
-1000000000	GWei (10^-9)
-
-1000000	Szabo
-
-1000	Finney
-
-1	SCBTC (1)
-
-0.001	KSCBTC
-
-0.000001	MSCBTC
-
-0.000000001	GSCBTC
-
-0.000000000001	TSCBTC
+- 1000000000000000000	Wei (10^-18)
+- 1000000000000000	KWei
+- 1000000000000	MWei
+- 1000000000	GWei (10^-9)
+- 1000000	Szabo
+- 1000	Finney
+- 1	SCBTC (1)
+- 0.001	KSCBTC
+- 0.000001	MSCBTC
+- 0.000000001	GSCBTC
+- 0.000000000001	TSCBTC
 
 
 **What is NKMT?**
